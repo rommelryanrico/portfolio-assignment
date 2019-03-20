@@ -34,7 +34,7 @@
   padding: 0px 15px;
   text-decoration: none;
   color: white;
-  font-family: 'Pacifico', cursive;
+  font-family: 'Patua One', cursive;
   text-shadow: var(--txt-shadow);
 }
 
@@ -42,8 +42,8 @@
   padding: 0px 15px;
   text-decoration: none;
   color: black;
-  font-family: 'Pacifico', cursive;
-  text-shadow: var(--txt-shadow);
+  font-family: 'Patua One', cursive;
+  /* text-shadow: var(--txt-shadow); */
 }
 
 .white-link:hover {

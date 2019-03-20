@@ -1,5 +1,10 @@
 /* Import Font */
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower|Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 /* Import other css components */
 @import '../css/cards.css';
 @import '../css/container.css';
