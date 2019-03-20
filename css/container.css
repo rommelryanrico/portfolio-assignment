@@ -1,0 +1,17 @@
+.main-container {
+  height: calc(100vh - 130px);
+  width: 100vw;
+  display: flex;
+  background-color: #004E71;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-container {
+  height: calc(100vh - 130px);
+  width: 100vw;
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+}
