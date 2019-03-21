@@ -36,6 +36,11 @@ p {
   margin-bottom: 130px;
 }
 
+.social-button {
+  height: 35px;
+  width: 40px;
+}
+
 .project1:hover {
   transform: scale(1.1);
 }
@@ -82,4 +87,32 @@ p {
 
 .education2:hover {
   transform: scale(1.05);
+}
+
+#name {
+  height: 38px;
+  width: 294px;
+  font-family: 'Montserrat', sans-serif;
+  /* text-align: center; */
+  box-shadow: 0 10px 6px -6px #777;
+}
+
+#email {
+  height: 38px;
+  width: 294px;
+  font-family: 'Montserrat', sans-serif;
+  /* text-align: center; */
+  box-shadow: 0 10px 6px -6px #777;
+}
+
+#comment-box {
+  font-family: 'Montserrat', sans-serif;
+  height: 75px;
+  width: 294px;
+  text-align: start;
+  box-shadow: 0 10px 6px -6px #777;
+}
+
+#submit {
+  font-family: 'Montserrat', sans-serif;
 }
