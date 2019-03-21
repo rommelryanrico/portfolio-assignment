@@ -1,8 +1,8 @@
-.blue-navbar {
+/* .blue-navbar {
   height: 130px;
   width: 100vw;
   background-color: #004E71;
-}
+} */
 
 .white-navbar {
   height: 130px;
@@ -30,13 +30,13 @@
   padding: 0 25px 0 0;
 }
 
-.white-link {
+/* .white-link {
   padding: 0px 15px;
   text-decoration: none;
   color: white;
   font-family: 'Patua One', cursive;
   text-shadow: var(--txt-shadow);
-}
+} */
 
 .black-link {
   padding: 0px 15px;
@@ -46,9 +46,9 @@
   /* text-shadow: var(--txt-shadow); */
 }
 
-.white-link:hover {
+/* .white-link:hover {
   transform: scale(1.1);
-}
+} */
 
 .black-link:hover {
   transform: scale(1.1);
@@ -57,3 +57,4 @@
 /* .navbar-logo:hover {
   transform: scale(1.1);
 } */
+
