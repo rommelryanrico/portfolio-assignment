@@ -51,6 +51,10 @@
   grid-column: 1 / 2;
   border: solid black 2px;
   border-radius: 2%;
+  background: url(./img/adam-miller-1053911-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .project2 { 
@@ -64,6 +68,10 @@
   grid-column: 2 / 3;
   border: solid black 2px;
   border-radius: 2%;
+  background: url(./img/aditya-chinchure-494048-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .project3 { 
@@ -77,6 +85,10 @@
   grid-column: 3 / 4;
   border: solid black 2px;
   border-radius: 2%;
+  background: url(./img/larm-rmah-47685-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .project4 { 
@@ -90,6 +102,10 @@
   grid-column: 1 / 2;
   border: solid black 2px;
   border-radius: 2%;
+  background: url(./img/david-east-152755-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .project5 { 
@@ -103,6 +119,10 @@
   grid-column: 2 / 3;
   border: solid black 2px;
   border-radius: 2%;
+  background: url(./img/benjamin-behre-1049704-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .project6 { 
@@ -116,6 +136,10 @@
   grid-column: 3 / 4;
   border: solid black 2px;
   border-radius: 2%;
+  background: url(./img/taneli-lahtinen-1027400-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .about-container {
@@ -142,11 +166,11 @@
   align-items: center;
   height: 100%;
   width: 100%;
-  background-color: white; 
+  background-color: #e79b25; 
   grid-row: 1 / 2; 
-  grid-column: 1 / 2;
-  border: solid black 2px;
-  border-radius: 2%;
+  grid-column: 2 / 3;
+  border: 2px solid black;
+  /* border-radius: 2%; */
 }
 
 .job1 {
@@ -156,13 +180,13 @@
   height: 100%;
   width: 100%;
   grid-row: 1 / 2; 
-  grid-column: 2 / 3;
-  border: solid black 2px;
+  grid-column: 1 / 2;
+  border: 2px solid black;
   background: url(./img/salsas.png);
   background-position: center, center;
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 2%;
+  /* border-radius: 2%; */
 }
 
 .job2 {
@@ -175,7 +199,11 @@
   grid-row: 1 / 2; 
   grid-column: 3 / 4;
   border: solid black 2px;
-  border-radius: 2%;
+  background: url(./img/cc239a-3ad0-82fc0.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* border-radius: 2%; */
 }
 
 .education-header {
@@ -184,11 +212,11 @@
   align-items: center;
   height: 100%;
   width: 100%;
-  background-color: white; 
+  background-color:#004E71; 
   grid-row: 3 / 4; 
-  grid-column: 1 / 2;
+  grid-column: 2 / 3;
   border: solid black 2px;
-  border-radius: 2%;
+  /* border-radius: 2%; */
 }
 
 .education1 {
@@ -199,9 +227,13 @@
   width: 100%;
   background-color: white; 
   grid-row: 3 / 4; 
-  grid-column: 2 / 3;
+  grid-column: 1 / 2;
   border: solid black 2px;
-  border-radius: 2%;
+  /* border-radius: 2%; */
+  background: url(./img/26_Swinburne.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .education2 {
@@ -214,5 +246,9 @@
   grid-row: 3 / 4; 
   grid-column: 3 / 4;
   border: solid black 2px;
-  border-radius: 2%;
+  /* border-radius: 2%; */
+  background: url(./img/coder.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
