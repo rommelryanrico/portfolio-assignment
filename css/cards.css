@@ -6,25 +6,9 @@
   width: 100%;
   background-color: #e79b25; 
   grid-row: 1 / 2; 
-  grid-column: 2 / 3;
-  border: 2px solid black;
-  border-radius: 2%;
-}
-
-.job1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-  grid-row: 1 / 2; 
   grid-column: 1 / 2;
-  border: 2px solid black;
-  background: url(./img/salsas.png);
-  background-position: center, center;
-  background-repeat: repeat;
-  background-size: contain;
-  border-radius: 2%;
+  /* border: 2px solid black; */
+  /* border-radius: 2%; */
 }
 
 .job2 {
@@ -36,12 +20,12 @@
   background-color: white; 
   grid-row: 1 / 2; 
   grid-column: 3 / 4;
-  border: solid black 2px;
+  /* border: solid black 2px; */
   background: url(./img/cc239a-3ad0-82fc0.jpeg);
   background-position: center;
   background-repeat: repeat;
   background-size: contain;
-  border-radius: 2%;
+  /* border-radius: 2%; */
 }
 
 .education-header {
@@ -52,42 +36,9 @@
   width: 100%;
   background-color:#004E71; 
   grid-row: 3 / 4; 
-  grid-column: 2 / 3;
-  border: solid black 2px;
-  border-radius: 2%;
-}
-
-.education1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-  grid-row: 3 / 4; 
   grid-column: 1 / 2;
-  border: solid black 2px;
-  border-radius: 2%;
-  background: url(./img/unilogo.png);
-  background-position: center;
-  background-repeat: repeat;
-  background-size: contain;
-}
-
-.education2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-  background-color: white; 
-  grid-row: 3 / 4; 
-  grid-column: 3 / 4;
-  border: solid black 2px;
-  border-radius: 2%;
-  background: url(./img/coder.jpg);
-  background-position: center;
-  background-repeat: repeat;
-  background-size: contain;
+  /* border: solid black 2px; */
+  /* border-radius: 2%; */
 }
 
 .project1 { 
@@ -190,4 +141,226 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.flip-card1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  grid-row: 1 / 2; 
+  grid-column: 2 / 3;
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid #f1f1f1; */
+  perspective: 1000px;
+}
+
+.flip-card1-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  /* transform-origin: center right; */
+}
+
+.flip-card1:hover .flip-card1-inner {
+  transform: rotateY(180deg);
+  /* transform: translateX(-100%) rotateY(180deg); */
+}
+
+.job1, .job1-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.job1 {
+  /* border: 2px solid black; */
+  background: url(./img/salsas.png);
+  background-position: center, center;
+  background-repeat: repeat;
+  background-size: contain;
+  /* border-radius: 2%; */
+}
+
+.job1-back {
+  background-color: #e79b25;
+  transform: rotateY(180deg);
+}
+
+
+
+
+
+
+.flip-card2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  grid-row: 1 / 2; 
+  grid-column: 3 / 4;
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid #f1f1f1; */
+  perspective: 1000px;
+}
+
+.flip-card2-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  /* transform-origin: center right; */
+}
+
+.flip-card2:hover .flip-card2-inner {
+  transform: rotateY(180deg);
+  /* transform: translateX(-100%) rotateY(180deg); */
+}
+
+.job2, .job2-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.job2 {
+  height: 100%;
+  width: 100%;
+  background-color: white; 
+  /* border: solid black 2px; */
+  background: url(./img/cc239a-3ad0-82fc0.jpeg);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: contain;
+  /* border-radius: 2%; */
+}
+
+.job2-back {
+  background-color: #e79b25;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
+
+
+
+
+.flip-card3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-row: 3 / 4; 
+  grid-column: 2 / 3;
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid #f1f1f1; */
+  perspective: 1000px;
+}
+
+.flip-card3-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  /* transform-origin: center right; */
+}
+
+.flip-card3:hover .flip-card3-inner {
+  transform: rotateY(180deg);
+  /* transform: translateX(-100%) rotateY(180deg); */
+}
+
+.education1, .education1-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.education1 {  
+  height: 100%;
+  width: 100%;
+  /* border: solid black 2px; */
+  /* border-radius: 2%; */
+  background: url(./img/unilogo.png);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: contain;
+}
+
+.education1-back {
+  background-color: #004E71;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
+
+
+.flip-card4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-row: 3 / 4; 
+  grid-column: 3 / 4;
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid #f1f1f1; */
+  perspective: 1000px;
+}
+
+.flip-card4-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  /* transform-origin: center right; */
+}
+
+.flip-card4:hover .flip-card4-inner {
+  transform: rotateY(180deg);
+  /* transform: translateX(-100%) rotateY(180deg); */
+}
+
+.education2, .education2-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.education2 {
+  height: 100%;
+  width: 100%;
+  background-color: white; 
+  /* border: solid black 2px; */
+  /* border-radius: 2%; */
+  background: url(./img/coder.jpg);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: contain;
+}
+
+.education2-back {
+  background-color: #004E71;
+  color: white;
+  transform: rotateY(180deg);
 }
