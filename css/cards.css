@@ -227,7 +227,7 @@
   /* border: solid black 2px; */
   background: url(./img/cc239a-3ad0-82fc0.jpeg);
   background-position: center;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-size: contain;
   /* border-radius: 2%; */
 }
@@ -238,7 +238,6 @@
   align-items: center;
   flex-direction: column;
   background-color: #e79b25;
-  color: white;
   transform: rotateY(180deg);
 }
 
@@ -289,18 +288,18 @@
   /* border-radius: 2%; */
   background: url(./img/unilogo.png);
   background-position: center;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-size: contain;
 }
 
 .education1-back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #004E71;
   color: white;
   transform: rotateY(180deg);
 }
-
-
-
 
 .flip-card4 {
   display: flex;
@@ -345,11 +344,14 @@
   /* border-radius: 2%; */
   background: url(./img/coder.jpg);
   background-position: center;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-size: contain;
 }
 
 .education2-back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #004E71;
   color: white;
   transform: rotateY(180deg);

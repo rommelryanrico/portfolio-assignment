@@ -98,7 +98,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  flex-wrap: nowrap;
 }
 
 .job2-back-content {
@@ -112,4 +111,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.education1-back-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.education2-back-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
