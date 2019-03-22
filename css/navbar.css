@@ -18,6 +18,14 @@
   margin-left: 25px;
 }
 
+.logo-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+  width: 75px;
+}
+
 .navbar-links {
   display: flex;
   float: right;

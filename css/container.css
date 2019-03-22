@@ -107,3 +107,9 @@
   align-items: center;
   flex-direction: column;
 }
+
+.logo-contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
