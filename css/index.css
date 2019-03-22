@@ -20,3 +20,17 @@
   }
 
   
+@media only screen and (max-width: 435px) {
+  /* .navbar-logo {
+    float: top;
+    display: flex;
+    align-items: center;
+    height: 130px;
+    width: 100px;
+  } */
+  .navbar-links {
+    display: none;
+  }
+
+  
+}
