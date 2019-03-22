@@ -74,34 +74,15 @@ p {
   transform: scale(1.1);
 }
 
-/* .career-header:hover {
-  transform: scale(1.05);
+.logo:hover {
+  transform: scale(1.1)
 }
-
-.job1:hover {
-  transform: scale(1.05);
-}
-
-.job2:hover {
-  transform: scale(1.05);
-}
-
-.education-header:hover {
-  transform: scale(1.05);
-}
-
-.education1:hover {
-  transform: scale(1.05);
-}
-
-.education2:hover {
-  transform: scale(1.05);
-} */
 
 #name {
   height: 38px;
   width: 294px;
   font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
   /* text-align: center; */
   /* box-shadow: 0 10px 6px -6px #777; */
 }
@@ -110,6 +91,7 @@ p {
   height: 38px;
   width: 294px;
   font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
   /* text-align: center; */
   /* box-shadow: 0 10px 6px -6px #777; */
 }
@@ -127,4 +109,5 @@ p {
   margin-bottom: 20px;
   font-family: 'Montserrat', sans-serif;
   height: 30px;
+  /* border-radius: 10%; */
 }
