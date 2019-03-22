@@ -32,5 +32,48 @@
     display: none;
   }
 
+.job1 {
+  /* border: 2px solid black; */
+  background: url(./img/salsas.png);
+  background-position: center, center;
+  background-repeat: repeat;
+  background-size: contain;
+  /* border-radius: 2%; */
+}
+
+.job2 {
+  height: 100%;
+  width: 100%;
+  background-color: white; 
+  /* border: solid black 2px; */
+  background: url(./img/cc239a-3ad0-82fc0.jpeg);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: contain;
+  /* border-radius: 2%; */
+}
+
+.education1 {  
+  height: 100%;
+  width: 100%;
+  /* border: solid black 2px; */
+  /* border-radius: 2%; */
+  background: url(./img/unilogo.png);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: contain;
+}
+
+.education2 {
+  height: 100%;
+  width: 100%;
+  background-color: white; 
+  /* border: solid black 2px; */
+  /* border-radius: 2%; */
+  background: url(./img/coder.jpg);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: contain;
+}
   
 }
