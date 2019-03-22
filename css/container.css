@@ -93,3 +93,17 @@
   margin-top: 20px;
 }
 
+.job1-back-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.job2-back-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
