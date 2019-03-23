@@ -6,7 +6,7 @@ h1 {
   font-family: 'Patua One', cursive;
   color: black;
   /* text-shadow: 0px 4px 4px rgba(0,0,0,0.5); */
-  margin-bottom: 130px;
+  margin: 0 10px 130px 10px;
   padding: 20px;
   font-size: 44px;
   border: solid black 5px;
@@ -50,28 +50,28 @@ p {
   transform: scale(1.1)
 }
 
-.project1:hover {
-  transform: scale(1.1);
+.project1:hover .project-overlay {
+  opacity: 0.5;
 }
 
-.project2:hover {
-  transform: scale(1.1);
+.project2:hover .project-overlay {
+  opacity: 0.5;
 }
 
-.project3:hover {
-  transform: scale(1.1);
+.project3:hover .project-overlay {
+  opacity: 0.5;
 }
 
-.project4:hover {
-  transform: scale(1.1);
+.project4:hover .project-overlay {
+  opacity: 0.5;
 }
 
-.project5:hover {
-  transform: scale(1.1);
+.project5:hover .project-overlay {
+  opacity: 0.5;
 }
 
-.project6:hover {
-  transform: scale(1.1);
+.project6:hover .project-overlay {
+  opacity: 0.5;
 }
 
 .logo:hover {
@@ -111,3 +111,4 @@ p {
   height: 30px;
   /* border-radius: 10%; */
 }
+
