@@ -83,6 +83,7 @@ p {
   width: 294px;
   font-family: 'Montserrat', sans-serif;
   font-size: 11px;
+  border: 1px solid black;
   /* text-align: center; */
   /* box-shadow: 0 10px 6px -6px #777; */
 }
@@ -92,6 +93,7 @@ p {
   width: 294px;
   font-family: 'Montserrat', sans-serif;
   font-size: 11px;
+  border: 1px solid black;
   /* text-align: center; */
   /* box-shadow: 0 10px 6px -6px #777; */
 }
@@ -101,6 +103,7 @@ p {
   height: 75px;
   width: 294px;
   text-align: start;
+  border: 1px solid black;
   /* box-shadow: 0 10px 6px -6px #777; */
   font-size: 11px;
 }
