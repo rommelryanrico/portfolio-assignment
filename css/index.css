@@ -1,10 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Pacifico');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
-@import url('https://fonts.googleapis.com/css?family=Raleway');
-@import url('https://fonts.googleapis.com/css?family=Patua+One');
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Patua+One');
 @import '../css/cards.css';
 @import '../css/container.css';
 @import '../css/content.css';
@@ -14,35 +8,114 @@
 * {
   margin: 0;
 }
-
-:root {
-  --txt-shadow:     0px 4px 4px rgba(0,0,0,0.5);
-  }
-
   
 @media only screen and (max-width: 435px) {
   .white-navbar {
     float: left;
   }
-  
+
+  .navbar-links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+  margin: 0 15px 0 0;
+  }
+
   .black-link {
-    margin: 0px 3px;
-    text-decoration: none;
     color: black;
+    text-decoration: none;
     font-family: 'Patua One', cursive;
+    margin: 0px 5px;
   }
 
   h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    font-family: 'Patua One', cursive;
+    grid-row: 2 / 3; 
+    grid-column: 1 / 4;
     color: black;
-    /* text-shadow: 0px 4px 4px rgba(0,0,0,0.5); */
+    font-size: 26px;
+    font-family: 'Patua One', cursive;
+    text-align: center;
     margin: 0 10px 130px 10px;
     padding: 20px;
-    font-size: 26px;
     border: solid black 5px;
+  } 
+
+  .spaceship {
+    height: 33.3335px;
+    width: 97.5px;
+  }
+
+  .index-spaceship {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    grid-row: 2 / 3; 
+    grid-column: 1 / 4;
+    animation: index 6s linear 1 forwards;
+  }
+
+  .intro-spaceship {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    grid-row: 2 / 3; 
+    grid-column: 1 / 4;
+    animation: index 6s linear forwards;
+  }
+  
+  .about-spaceship {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    grid-row: 2 / 3; 
+    grid-column: 1 / 4;
+    animation: index 6s linear forwards;
+  }
+  
+  .projects-spaceship {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    grid-row: 2 / 3; 
+    grid-column: 1 / 4;
+    animation: index 6s linear forwards;
+  }
+  
+  .contact-spaceship {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    grid-row: 3 / 4; 
+    grid-column: 1 / 4;
+    animation: index 6s linear forwards;
+  }
+
+  .intro-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    grid-row: 3 / 4; 
+    grid-column: 1 / 4;
+  }
+  
+  @keyframes index {
+    99%{
+      opacity: 1;
+      transform: translate(800px)
+    }
+
+    100%{
+      position: absolute;
+      left:-10000px;
+      top: auto;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+    }
   }
 }
