@@ -26,7 +26,7 @@ https://rommelryanrico.com/
 https://github.com/rommelryanrico/portfolio-assignment
 
 ## Purpose
-The purpose of this project was to use the foundations we learned of html and css to create our own portfolio website. This project would also allow us to showcase our skills to potential employers.
+The purpose of this project was to use the foundations we learned of HTML and CSS to create our own portfolio website. This project would also allow us to showcase our skills to potential employers.
 
 ## Features
 * Spaceship animation that would go across the screen from left to right. 
@@ -39,7 +39,7 @@ The purpose of this project was to use the foundations we learned of html and cs
   
 * Projects page listing completed or coming soon projects with hover overlay animation.
 
-* Contact page with contact form that will send email straight to my email address. Also links to my Twitter, Github or Linkedin pages.
+* Contact page with contact form that will send comments straight to my email address. Also links to my Twitter, Github and Linkedin pages.
 
 ## Sitemap
 <img src=./docs/sitemap.png>
