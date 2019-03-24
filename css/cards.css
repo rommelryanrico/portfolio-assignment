@@ -20,45 +20,43 @@
   grid-column: 1 / 2;
 }
 
+.project-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background: rgba(77, 77, 77, .9);
+}
+
 .project1 { 
   display: flex;
   justify-content: center;
   align-items: center;
+  grid-row: 1 / 2; 
+  grid-column: 1 / 2;  
   height: 100%;
   width: 100%;
   background-color: white; 
-  grid-row: 1 / 2; 
-  grid-column: 1 / 2;
-  border-radius: 2%;
   background: url(./img/adam-miller.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.project-overlay {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background: rgba(77, 77, 77, .9);
-  border-radius: 2%;
-}
-
 .project2 { 
   display: flex;
   justify-content: center;
   align-items: center;
+  grid-row: 1 / 2; 
+  grid-column: 2 / 3;  
   height: 100%;
   width: 100%;
   background-color: white; 
-  grid-row: 1 / 2; 
-  grid-column: 2 / 3;
-  border-radius: 2%;
-  background: url(./img/aditya-chinchure.jpg);
+  background: url(./img/aleksandr-ledogorov.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -67,14 +65,13 @@
 .project3 { 
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; 
+  grid-row: 1 / 2; 
+  grid-column: 3 / 4;
   height: 100%;
   width: 100%;
   background-color: white; 
-  grid-row: 1 / 2; 
-  grid-column: 3 / 4;
-  border-radius: 2%;
-  background: url(./img/larm-rmah.jpg);
+  background: url(./img/adam-seckel.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -83,14 +80,13 @@
 .project4 { 
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; 
+  grid-row: 3 / 4; 
+  grid-column: 1 / 2;
   height: 100%;
   width: 100%;
   background-color: white; 
-  grid-row: 3 / 4; 
-  grid-column: 1 / 2;
-  border-radius: 2%;
-  background: url(./img/david-east.jpg);
+  background: url(./img/kelvin-zyteng.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -99,15 +95,13 @@
 .project5 { 
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center;  
+  grid-row: 3 / 4; 
+  grid-column: 2 / 3;
   height: 100%;
   width: 100%;
   background-color: white; 
-  grid-row: 3 / 4; 
-  grid-column: 2 / 3;
-  /* border: solid black 2px; */
-  border-radius: 2%;
-  background: url(./img/benjamin-behre.jpg);
+  background: url(./img/drew-graham.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -116,14 +110,13 @@
 .project6 { 
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center;  
+  grid-row: 3 / 4; 
+  grid-column: 3 / 4;
   height: 100%;
   width: 100%;
   background-color: white; 
-  grid-row: 3 / 4; 
-  grid-column: 3 / 4;
-  border-radius: 2%;
-  background: url(./img/taneli-lahtinen.jpg);
+  background: url(./img/tinh-khuong.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -133,13 +126,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
-  width: 100%;
   grid-row: 1 / 2; 
-  grid-column: 2 / 3;
-  background-color: transparent;
-  width: 100%;
+  grid-column: 2 / 3;  
   height: 100%;
+  width: 100%;
+  background-color: transparent;
   perspective: 1000px;
   -webkit-perspective: 1000px;
   -o-perspective: 1000px;
@@ -147,7 +138,7 @@
 }
 
 .flip-card1-inner {
-  position: relative;
+  position: relative;  
   width: 100%;
   height: 100%;
   text-align: center;
@@ -202,9 +193,9 @@
   align-items: center;  
   grid-row: 1 / 2; 
   grid-column: 3 / 4;
-  background-color: transparent;
-  width: 100%;
   height: 100%;
+  width: 100%;
+  background-color: transparent;
   perspective: 1000px;
   -webkit-perspective: 1000px;
   -o-perspective: 1000px;
@@ -235,8 +226,8 @@
 
 .job2, .job2-back {
   position: absolute;
-  width: 100%;
   height: 100%;
+  width: 100%;
   backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
@@ -247,7 +238,7 @@
   height: 100%;
   width: 100%;
   background-color: white; 
-  background: url(./img/cc239a-3ad0-82fc0.jpeg);
+  background: url(./img/aegis.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -271,9 +262,9 @@
   align-items: center;
   grid-row: 3 / 4; 
   grid-column: 2 / 3;
-  background-color: transparent;
-  width: 100%;
   height: 100%;
+  width: 100%;
+  background-color: transparent;
   perspective: 1000px;
   -webkit-perspective: 1000px;
   -o-perspective: 1000px;
@@ -282,8 +273,8 @@
 
 .flip-card3-inner {
   position: relative;
-  width: 100%;
   height: 100%;
+  width: 100%;
   text-align: center;
   transition: transform 1s;
   transform-style: preserve-3d;
@@ -304,8 +295,8 @@
 
 .education1, .education1-back {
   position: absolute;
-  width: 100%;
   height: 100%;
+  width: 100%;
   backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
@@ -315,7 +306,7 @@
 .education1 {  
   height: 100%;
   width: 100%;
-  background: url(./img/unilogo.png);
+  background: url(./img/uni-logo.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -324,9 +315,9 @@
 .education1-back {
   display: flex;
   justify-content: center;
-  align-items: center;
-  background-color: #004E71;
+  align-items: center; 
   color: white;
+  background-color: #004E71;
   transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
   -webkit-transform: rotateY(180deg);
@@ -338,10 +329,10 @@
   justify-content: center;
   align-items: center;
   grid-row: 3 / 4; 
-  grid-column: 3 / 4;
-  background-color: transparent;
-  width: 100%;
+  grid-column: 3 / 4;  
   height: 100%;
+  width: 100%;
+  background-color: transparent;
   perspective: 1000px;
   -webkit-perspective: 1000px;
   -o-perspective: 1000px;
@@ -350,8 +341,8 @@
 
 .flip-card4-inner {
   position: relative;
-  width: 100%;
   height: 100%;
+  width: 100%;
   text-align: center;
   transition: transform 1s;
   transform-style: preserve-3d;
@@ -371,9 +362,9 @@
 }
 
 .education2, .education2-back {
-  width: 100%;
-  height: 100%;
   position: absolute;
+  height: 100%;
+  width: 100%;
   backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
@@ -384,7 +375,7 @@
   height: 100%;
   width: 100%;
   background-color: white; 
-  background: url(./img/coder.jpg);
+  background: url(./img/coder-academy.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
